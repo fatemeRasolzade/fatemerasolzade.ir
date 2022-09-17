@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "msmadi";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/fonts/MsMadi-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "verdana";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/fonts/verdana.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lacquer";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../public/fonts/Lacquer-Regular.ttf") format("truetype");
+}
+
+
+@layer base{
+  p,h1,h2,h3,h4,h5,h6{
+    @apply text-xs sm:text-sm
+  }
+  body {
+      @apply bg-dark-purple
+  }
+}
+
+@layer components {
+  .title{
+    @apply mb-5 mt-10 text-xl font-["lacquer"]
+  }
+  .text{
+    @apply text-sm font-["verdana"] opacity-70
+  }
+}
+
+
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(178,102,210);
+    background: radial-gradient(circle, rgba(178,102,210,0.2) 0%, rgba(36,32,59,1) 50%);  
+}

@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import SocialMenu from './components/SocialMenu';
+import './styles/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='px-52 pt-32 text-white relative'>
+      <p className='text-base'>hello, I am</p>
+      <h1 className="text-7xl mt-5 font-['msmadi']">Fatemeh Rasolzadeh</h1>
+      <p className='mt-10 text-xl font-["verdana"] text-light-purple'>Front-end developer, create user friendly website to help businesses do better online</p>
+      <AboutMe/>
+      <Skills/>
+      <SocialMenu/>
+    </main>
   );
 }
 
