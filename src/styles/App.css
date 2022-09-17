@@ -15,10 +15,10 @@
   src: url("../public/fonts/verdana.ttf") format("truetype");
 }
 @font-face {
-  font-family: "lacquer";
+  font-family: "oswald";
   font-style: normal;
   font-weight: normal;
-  src: url("../public/fonts/Lacquer-Regular.ttf") format("truetype");
+  src: url("../public/fonts/Oswald-VariableFont.ttf") format("truetype");
 }
 
 
@@ -33,7 +33,7 @@
 
 @layer components {
   .title{
-    @apply mb-5 mt-10 text-xl font-["lacquer"]
+    @apply mb-5 mt-10 text-2xl font-oswald
   }
   .text{
     @apply text-sm font-["verdana"] opacity-70

@@ -10,6 +10,9 @@ module.exports = {
         'light-purple': '#9189b3',
         'main-purple': '#b266d2',
       },
+      fontFamily: {
+        'oswald': ['oswald']
+      }
     },
   },
   plugins: [],
