@@ -11,7 +11,10 @@ module.exports = {
         'main-purple': '#b266d2',
       },
       fontFamily: {
-        'oswald': ['oswald']
+        'oswald': ['oswald'],
+        'msmadi': ['msmadi'],
+        'verdana': ['verdana'],
+
       }
     },
   },
