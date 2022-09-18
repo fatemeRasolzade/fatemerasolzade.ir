@@ -32,7 +32,7 @@
     @apply text-xs sm:text-sm;
   }
   body {
-    @apply bg-dark-purple;
+    @apply bg-dark-purple selection:bg-main-purple;
   }
 }
 
