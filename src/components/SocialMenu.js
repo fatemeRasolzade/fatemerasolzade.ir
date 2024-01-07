@@ -7,13 +7,13 @@ const SocialMenu = () => {
     <div className="hidden sm:inline fixed bottom-0 left-10 ">
       <div className="flex flex-col items-center justify-end gap-4">
         <a target="_blank" rel="noreferrer" href="https://github.com/fatemeRasolzade">
-          <Github className=" transition-all duration-500 hover:text-main-purple hover:-translate-y-1 hover:scale-110" />
+          <Github className=" transition-all duration-500 hover:text-main-blue hover:-translate-y-1 hover:scale-110" />
         </a>
         <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/fatemerasolzade/">
-          <Linkedin className=" transition-all duration-500 hover:text-main-purple hover:-translate-y-1 hover:scale-110" />
+          <Linkedin className=" transition-all duration-500 hover:text-main-blue hover:-translate-y-1 hover:scale-110" />
         </a>
         <a target="_blank" rel="noreferrer" href="mailto:fatemerasolzade.1424@gmail.com">
-          <Email className=" transition-all duration-500 hover:text-main-purple hover:-translate-y-1 hover:scale-110" />
+          <Email className=" transition-all duration-500 hover:text-main-blue hover:-translate-y-1 hover:scale-110" />
         </a>
         <div className="h-40 bg-white w-0.5"></div>
       </div>
