@@ -32,7 +32,7 @@
     @apply text-xs sm:text-sm;
   }
   body {
-    @apply bg-dark-purple selection:bg-main-purple;
+    @apply bg-dark-blue selection:bg-main-purple;
   }
 }
 
@@ -47,8 +47,12 @@
 
 main {
   height: 100vh;
-  background: rgb(178, 102, 210);
-  background: radial-gradient(circle, rgba(178, 102, 210, 0.2) 0%, rgba(36, 32, 59, 1) 50%);
+  /* background: rgb(178, 102, 210);
+  background: radial-gradient(
+    circle,
+    rgba(178, 102, 210, 0.2) 0%,
+    rgba(36, 32, 59, 1) 50%
+  ); */
 }
 
 .simplebar-scrollbar::before {
