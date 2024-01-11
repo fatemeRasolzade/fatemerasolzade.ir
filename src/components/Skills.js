@@ -1,9 +1,11 @@
 const Skills = () => {
   return (
     <>
-      <h2 className="title">Skills</h2>
-      <p className="text">HTML, CSS, javaScript, typeScript,  React js, Next js, Redux, Vite, Restful API, GraqhQl, WebSocket</p>
-      <p className="text pb-10">Material Ui, Ant design, Tailwind, BootStrap, Sass, Git</p>
+      <h2 className="">Skills</h2>
+      <div className="flex gap2">
+        <img src="./images/html.png" width={100} height={100} alt="html" />
+        <img src="./images/css.png" width={100} height={100} alt="css" />
+      </div>
     </>
   );
 };
