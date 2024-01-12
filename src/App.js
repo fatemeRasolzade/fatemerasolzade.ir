@@ -28,11 +28,8 @@ function App() {
         <SocialMenu />
         <MobileSocialMenu />
       </main>
-      <main className="mx-auto max-w-7xl text-white relative flex justify-center items-center gap-32">
-        <div className="flex flex-col justify-start">
-          <Skills />
-        </div>
-      </main>
+
+      <Skills />
     </SimpleBar>
   );
 }
