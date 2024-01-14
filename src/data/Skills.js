@@ -7,6 +7,7 @@ export const tools = [
   "vsCode",
   "postMan",
   "swagger",
+  "openApi",
   "jira",
   "jiraAlign",
   "trello",
