@@ -5,6 +5,7 @@ import SocialMenu from "./components/SocialMenu";
 import MobileSocialMenu from "./components/MobileSocialMenu";
 import Skills from "./components/Skills";
 import Fatemeh from "./public/images/fatemeh.jpg";
+import Tools from "./components/Tools";
 
 function App() {
   return (
@@ -28,8 +29,8 @@ function App() {
         <SocialMenu />
         <MobileSocialMenu />
       </main>
-
       <Skills />
+      <Tools />
     </SimpleBar>
   );
 }
