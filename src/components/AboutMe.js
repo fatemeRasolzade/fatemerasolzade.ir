@@ -1,13 +1,21 @@
+import Fatemeh from "../public/images/fatemeh.jpg";
+
 const AboutMe = () => {
   return (
     <>
-      <h2 className="title">About me</h2>
-      <p className="text">
-        A Front-end developer For more than one year experience in building multiple projects.
-        <br />
-        seeking ways to help businesses and startups by taking the latest trends of UI//UX designs and turning them into code.
-        <br /> Who is never afraid about new challenges and always eager to learn new things, and apply my knowledge into real-world projects.
-      </p>
+      <div className="flex flex-col justify-start">
+        <p className="text-2xl">Hello there!</p>
+        <h1 className="text-6xl sm:text-5xl font-semibold mt-4">I'm Fatemeh Rasolzadeh</h1>
+        <h2 className="text-6xl sm:text-5xl font-semibold mt-2">Front-End Developer</h2>
+        <p className="mt-5 text-lg sm:text-base font-verdana opacity-50 text-justify">
+          I'm a programmer, I make love with codes and live with my projects.
+          <br /> It's not just a job but a lifestyle, in fact I can't imagine life without it.
+          <br /> it's a never-ending world with new and tough challenges every day,
+          <br /> never before facing They are not afraid and exciting and attractive to me.
+        </p>
+        <p className="text-xl text-main-blue mt-4 cursor-pointer">{`<Download CV />`}</p>
+      </div>
+      <img src={Fatemeh} alt="fatemeh" width={500} className="rounded-b-full border-t" />
     </>
   );
 };
