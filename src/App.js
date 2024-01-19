@@ -1,4 +1,3 @@
-// import SimpleBar from "simplebar-react";
 import Tools from "./components/Tools";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
@@ -11,8 +10,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 
 function App() {
   return (
-    // <SimpleBar style={{ maxHeight: "100vh" }} autoHide={false}>
-    // </SimpleBar>
     <div className="relative text-white">
       / <SocialMenu />
       <MobileSocialMenu />
