@@ -1,18 +1,14 @@
-// import SimpleBar from "simplebar-react";
+import ReactFullpage from "@fullpage/react-fullpage";
 import Tools from "./components/Tools";
 import Skills from "./components/Skills";
 import AboutMe from "./components/AboutMe";
 import SocialMenu from "./components/SocialMenu";
 import MobileSocialMenu from "./components/MobileSocialMenu";
 
-import "simplebar/dist/simplebar.min.css";
 import "./styles/App.css";
-import ReactFullpage from "@fullpage/react-fullpage";
 
 function App() {
   return (
-    // <SimpleBar style={{ maxHeight: "100vh" }} autoHide={false}>
-    // </SimpleBar>
     <div className="relative text-white">
       / <SocialMenu />
       <MobileSocialMenu />
