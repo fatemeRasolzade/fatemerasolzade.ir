@@ -2,7 +2,7 @@ import { designs, techs } from "../data/Skills";
 
 const Skills = () => {
   return (
-    <main className="mx-auto max-w-7xl text-white relative flex justify-center items-center gap-32">
+    <div className="section mx-auto max-w-7xl text-white relative flex justify-center items-center gap-32">
       <div className="flex flex-col justify-start">
         <h3 className="text-6xl sm:text-5xl font-semibold mt-4 text-center">Skills & Experience</h3>
         <p className="mt-5 text-lg sm:text-base font-verdana opacity-50 text-center">
@@ -30,7 +30,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 
