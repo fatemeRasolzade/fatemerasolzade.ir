@@ -12,20 +12,20 @@ const Skills = () => {
           <br /> Make them beautiful and attractive with design systems like css, scss, bootstrap, ...
           <br /> Make the site interactive by using API calls to get data from the server.
         </p>
-        <div className="flex flex-col gap-8 mt-10">
-          <div className="flex gap-8 h-20">
+        <div className="flex flex-col justify-center items-center gap-5 mt-10">
+          <div className="flex gap-5 h-16">
             {techs.map((item) => (
               <img
                 src={`./images/${item}.png`}
                 className={`icon-transition ${item === "js" ? "rounded-md" : ""}`}
-                width={80}
+                width={65}
                 alt={item}
               />
             ))}
           </div>
-          <div className="flex gap-8 h-20 justify-center">
+          <div className="flex gap-5 h-16 justify-center">
             {designs.map((item) => (
-              <img src={`./images/${item}.png`} className="icon-transition" width={80} alt={item} />
+              <img src={`./images/${item}.png`} className="icon-transition" width={65} alt={item} />
             ))}
           </div>
         </div>
