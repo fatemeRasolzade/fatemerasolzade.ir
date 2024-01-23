@@ -10,11 +10,11 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="relative text-white">
-      / <SocialMenu />
+      <SocialMenu />
       <MobileSocialMenu />
       <ReactFullpage
         //fullpage options
-        licenseKey={"YOUR_KEY_HERE"}
+        // licenseKey={"YOUR_KEY_HERE"}
         scrollingSpeed={1000} /* Options here */
         render={({ state, fullpageApi }) => {
           return (

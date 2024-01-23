@@ -61,3 +61,7 @@ main {
 .simplebar-scrollbar::before {
   background: #fff !important;
 }
+
+.fp-watermark {
+  display: none !important;
+}
