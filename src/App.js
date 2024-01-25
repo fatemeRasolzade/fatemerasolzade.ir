@@ -13,9 +13,8 @@ function App() {
       <SocialMenu />
       <MobileSocialMenu />
       <ReactFullpage
-        //fullpage options
-        // licenseKey={"YOUR_KEY_HERE"}
-        scrollingSpeed={1000} /* Options here */
+        navigation={true}
+        scrollingSpeed={2000}
         render={({ state, fullpageApi }) => {
           return (
             <ReactFullpage.Wrapper>
