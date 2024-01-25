@@ -15,7 +15,14 @@ const AboutMe = () => {
             <br /> it's a never-ending world with new and tough challenges every day,
             <br /> never before facing They are not afraid and exciting and attractive to me.
           </p>
-          <p className="text-xl text-main-blue mt-4 cursor-pointer">{`<Download CV />`}</p>
+          <a href="/somefile.txt" download>
+            Click to download
+          </a>
+          <a
+            download={"fatemeRasolzade.pdf"}
+            className="text-xl text-main-blue mt-4 cursor-pointer icon-transition"
+            href={"../public/documents/resume.pdf"}
+          >{`<Download CV />`}</a>
         </div>
         <img src={Fatemeh} alt="fatemeh" width={500} className="rounded-b-full border-t" />
       </div>
