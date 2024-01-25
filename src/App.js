@@ -1,7 +1,7 @@
 import ReactFullpage from "@fullpage/react-fullpage";
-import Tools from "./components/Tools";
-import Skills from "./components/Skills";
-import AboutMe from "./components/AboutMe";
+import Tools from "./containers/Tools";
+import Skills from "./containers/Skills";
+import AboutMe from "./containers/AboutMe";
 import SocialMenu from "./components/SocialMenu";
 import MobileSocialMenu from "./components/MobileSocialMenu";
 
