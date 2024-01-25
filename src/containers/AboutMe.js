@@ -1,3 +1,4 @@
+import TransitionText from "../components/TransitionText";
 import Fatemeh from "../public/images/fatemeh.jpg";
 
 const AboutMe = () => {
@@ -6,8 +7,8 @@ const AboutMe = () => {
       <div className="mx-auto max-w-7xl text-white !flex justify-center items-center gap-32">
         <div className="flex flex-col justify-start">
           <p className="text-2xl">Hello there!</p>
-          <h1 className="text-6xl sm:text-5xl font-semibold mt-4">I'm Fatemeh Rasolzadeh</h1>
-          <h2 className="text-6xl sm:text-5xl font-semibold mt-2">Front-End Developer</h2>
+          <TransitionText text="I'm Fatemeh Rasolzadeh" wrapperClassName="mt-4" />
+          <TransitionText text="Front-End Developer" wrapperClassName="mt-2" />
           <p className="mt-5 text-lg sm:text-base font-verdana opacity-50 text-justify">
             I'm a programmer, I make love with codes and live with my projects.
             <br /> It's not just a job but a lifestyle, in fact I can't imagine life without it.

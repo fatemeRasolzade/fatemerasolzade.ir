@@ -4,7 +4,7 @@ import Linkedin from "../public/icons/Linkedin";
 
 const SocialMenu = () => {
   return (
-    <div className="hidden sm:inline fixed bottom-0 left-10 ">
+    <div className="hidden sm:inline fixed bottom-0 left-10 z-10">
       <div className="flex flex-col items-center justify-end gap-4">
         <a target="_blank" rel="noreferrer" href="https://github.com/fatemeRasolzade">
           <Github className="icon-transition" />
