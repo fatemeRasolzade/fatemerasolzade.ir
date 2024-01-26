@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         "dark-blue": "#100F17",
         "main-blue": "#66788D",
+        "main-orange": "#cf6430",
       },
       fontFamily: {
         oswald: ["oswald"],
@@ -24,4 +25,3 @@ module.exports = {
   },
   plugins: [],
 };
-
