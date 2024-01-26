@@ -9,7 +9,6 @@ module.exports = {
       },
       fontFamily: {
         oswald: ["oswald"],
-        msmadi: ["msmadi"],
         verdana: ["verdana"],
       },
       keyframes: {

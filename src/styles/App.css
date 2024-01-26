@@ -3,22 +3,10 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "msmadi";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../public/fonts/MsMadi-Regular.ttf") format("truetype");
-}
-@font-face {
   font-family: "verdana";
   font-style: normal;
   font-weight: normal;
   src: url("../public/fonts/verdana.ttf") format("truetype");
-}
-@font-face {
-  font-family: "oswald";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../public/fonts/Oswald-VariableFont.ttf") format("truetype");
 }
 
 @layer base {
@@ -37,12 +25,6 @@
 }
 
 @layer components {
-  .title {
-    @apply mb-2 mt-5 sm:mb-5 sm:mt-10 text-xl sm:text-2xl font-oswald;
-  }
-  .text {
-    @apply text-sm font-verdana opacity-70;
-  }
   .icon-transition {
     @apply transition-all duration-500 hover:text-main-blue hover:-translate-y-1 hover:scale-110;
   }
@@ -56,10 +38,6 @@ main {
     rgba(178, 102, 210, 0.2) 0%,
     rgba(36, 32, 59, 1) 50%
   ); */
-}
-
-.simplebar-scrollbar::before {
-  background: #fff !important;
 }
 
 .fp-watermark {
