@@ -15,9 +15,6 @@ const AboutMe = () => {
             <br /> it's a never-ending world with new and tough challenges every day,
             <br /> never before facing They are not afraid and exciting and attractive to me.
           </p>
-          <a href="/somefile.txt" download>
-            Click to download
-          </a>
           <a
             download={"fatemeRasolzade.pdf"}
             className="text-xl text-main-blue mt-4 cursor-pointer icon-transition"
