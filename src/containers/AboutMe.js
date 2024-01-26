@@ -4,8 +4,8 @@ import Fatemeh from "../public/images/fatemeh.jpg";
 const AboutMe = () => {
   return (
     <div className="section ">
-      <div className="mx-auto max-w-7xl text-white !flex justify-center items-center gap-32">
-        <div className="flex flex-col justify-start">
+      <div className="mx-auto max-w-7xl text-white !flex justify-center items-center animate-banner gap-32">
+        <div className="flex flex-col justify-start min-w-[38rem]">
           <p className="text-2xl">Hello there!</p>
           <TransitionText text="I'm Fatemeh Rasolzadeh" wrapperClassName="mt-4" />
           <TransitionText text="Front-End Developer" wrapperClassName="mt-2" />

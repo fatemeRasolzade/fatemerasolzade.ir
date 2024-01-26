@@ -12,7 +12,17 @@ module.exports = {
         msmadi: ["msmadi"],
         verdana: ["verdana"],
       },
+      keyframes: {
+        slide: {
+          "0%": { gap: "130rem", opacity: "0" },
+          "100%": { gap: "8rem", opacity: "1" },
+        },
+      },
+      animation: {
+        banner: "slide 3s ease-out",
+      },
     },
   },
   plugins: [],
 };
+

@@ -65,3 +65,7 @@ main {
 .fp-watermark {
   display: none !important;
 }
+
+.fp-overflow {
+  overflow-y: inherit !important;
+}
