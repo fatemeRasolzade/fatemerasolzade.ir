@@ -1,6 +1,7 @@
 import TransitionText from "../components/TransitionText";
 import Fatemeh from "../public/images/fatemeh.jpg";
 import Code from "../public/icons/Code";
+import Fragment from "../public/icons/Fragment";
 
 const AboutMe = () => {
   return (
@@ -25,6 +26,7 @@ const AboutMe = () => {
           </div>
           <img src={Fatemeh} alt="fatemeh" width={500} className="rounded-b-full border-t" />
         </div>
+        <Fragment className={"absolute -top-48 left-[110rem] blur-[6px] text-main-orange"} />
         <Code className={"absolute top-[23.4rem] left-[67rem] blur-[6px]"} />
       </div>
     </div>
