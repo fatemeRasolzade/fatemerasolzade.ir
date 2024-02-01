@@ -5,7 +5,7 @@ const Fragment = ({ className }) => {
     <svg
       class="svg-icon"
       className={className}
-      width={150}
+      width={180}
       height={200}
       viewBox="0 0 1024 1024"
       version="1.1"
