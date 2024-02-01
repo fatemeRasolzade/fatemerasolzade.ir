@@ -1,5 +1,6 @@
 import { designs, techs } from "../data/Skills";
 import TransitionText from "../components/TransitionText";
+import FindBug from "../public/icons/FindBug";
 
 const Skills = () => {
   return (
@@ -31,6 +32,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
+      <FindBug className="absolute -left-72 top-32 blur-[6px]" />
     </div>
   );
 };
