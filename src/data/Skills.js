@@ -7,6 +7,7 @@ export const techs = [
   "next",
   "redux",
   "graphql",
+  "reactQuery",
   "vite",
   "babel",
   "webpack",
