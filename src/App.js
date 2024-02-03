@@ -4,6 +4,7 @@ import Skills from "./containers/Skills";
 import AboutMe from "./containers/AboutMe";
 import SocialMenu from "./components/SocialMenu";
 import MobileSocialMenu from "./components/MobileSocialMenu";
+import Packages from "./containers/Packages";
 
 import "./styles/App.css";
 
@@ -21,6 +22,7 @@ function App() {
               <AboutMe />
               <Skills />
               <Tools />
+              <Packages />
               {/* <div className="section">
                 <p>Section 1 (welcome to fullpage.js)</p>
                 <button onClick={() => fullpageApi.moveSectionDown()}>Click me to move down</button>
