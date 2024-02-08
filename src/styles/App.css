@@ -6,7 +6,7 @@
   font-family: "verdana";
   font-style: normal;
   font-weight: normal;
-  src: url("../public/fonts/verdana.ttf") format("truetype");
+  src: url("../assets/fonts/verdana.ttf") format("truetype");
 }
 
 @layer base {

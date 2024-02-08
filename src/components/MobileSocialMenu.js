@@ -1,6 +1,6 @@
-import Email from "../public/icons/Email";
-import Github from "../public/icons/Github";
-import Linkedin from "../public/icons/Linkedin";
+import Email from "../assets/icons/Email";
+import Github from "../assets/icons/Github";
+import Linkedin from "../assets/icons/Linkedin";
 
 const MobileSocialMenu = () => {
   return (

@@ -1,8 +1,8 @@
 import TransitionText from "../components/TransitionText";
-import Fatemeh from "../public/images/fatemeh.jpg";
-import Code from "../public/icons/Code";
-import Fragment from "../public/icons/Fragment";
-import BinaryNumbers from "../public/icons/BinaryNumbers";
+import Fatemeh from "../assets/images/fatemeh.jpg";
+import Code from "../assets/icons/Code";
+import Fragment from "../assets/icons/Fragment";
+import BinaryNumbers from "../assets/icons/BinaryNumbers";
 
 const AboutMe = () => {
   return (
@@ -22,7 +22,7 @@ const AboutMe = () => {
             <a
               download={"fatemeRasolzade.pdf"}
               className="text-xl text-main-blue mt-4 cursor-pointer icon-transition"
-              href={"../public/documents/resume.pdf"}
+              href={"../assets/documents/resume.pdf"}
             >{`<Download CV />`}</a>
           </div>
           <img src={Fatemeh} alt="fatemeh" width={500} className="rounded-b-full border-t" />

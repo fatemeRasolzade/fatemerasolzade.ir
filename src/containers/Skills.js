@@ -1,7 +1,7 @@
 import { designs, techs } from "../data/Skills";
 import TransitionText from "../components/TransitionText";
-import FindBug from "../public/icons/FindBug";
-import Browser from "../public/icons/Browser";
+import FindBug from "../assets/icons/FindBug";
+import Browser from "../assets/icons/Browser";
 
 const Skills = () => {
   return (
