@@ -19,7 +19,7 @@ const Skills = () => {
           <div className="flex gap-5 h-16">
             {techs.map((item) => (
               <img
-                src={`./images/${item}.png`}
+                src={require(`../assets/images/techs/${item}.png`)}
                 className={`icon-transition ${item === "js" ? "rounded-md" : ""}`}
                 width={65}
                 alt={item}
@@ -28,7 +28,7 @@ const Skills = () => {
           </div>
           <div className="flex gap-5 h-16 justify-center">
             {designs.map((item) => (
-              <img src={`./images/${item}.png`} className="icon-transition" width={65} alt={item} />
+              <img src={require(`../assets/images/techs/${item}.png`)} className="icon-transition" width={65} alt={item} />
             ))}
           </div>
         </div>

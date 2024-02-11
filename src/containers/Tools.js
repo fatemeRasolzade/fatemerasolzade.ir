@@ -13,7 +13,12 @@ const Tools = () => {
         <div className="flex flex-col gap-8 mt-10">
           <div className="flex gap-5 h-16 justify-center">
             {tools.map((item) => (
-              <img src={`./images/${item}.png`} className="icon-transition" width={65} alt={item} />
+              <img
+                src={require(`../assets/images/techs/${item}.png`)}
+                className="icon-transition"
+                width={65}
+                alt={item}
+              />
             ))}
           </div>
         </div>

@@ -18,7 +18,7 @@ export const tools = [
   "gitHub",
   "gitLab",
   "vsCode",
-  "postMan",
+  "postman",
   "swagger",
   "openApi",
   "jira",
