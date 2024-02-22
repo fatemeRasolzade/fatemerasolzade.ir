@@ -1,4 +1,4 @@
-import { designs, techs } from "../data/Skills";
+import { designs, techs } from "../data/data";
 import TransitionText from "../components/TransitionText";
 import FindBug from "../assets/icons/FindBug";
 import Browser from "../assets/icons/Browser";

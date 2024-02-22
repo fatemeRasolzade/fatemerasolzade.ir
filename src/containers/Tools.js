@@ -1,4 +1,4 @@
-import { tools } from "../data/Skills";
+import { tools } from "../data/data";
 import TransitionText from "../components/TransitionText";
 
 const Tools = () => {
